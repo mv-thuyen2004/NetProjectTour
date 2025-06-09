@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DoAn.Views.AdminReportPage"
+             xmlns:viewModel="clr-namespace:DoAn.ViewModels"
+             xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+             x:DataType="viewModel:AdminReportViewModel">
+    <Grid RowDefinitions="*, 60">
+        <ScrollView Grid.Row="0">
+            <StackLayout Padding="20" Spacing="15">
+                <Label Text="Báo cáo Admin" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+
+                <!-- Thông báo lỗi hoặc thông tin -->
+                <Label Text="{Binding Message}"
+                       TextColor="Red"
+                       HorizontalOptions="Center"
+                       IsVisible="{Binding Message, Converter={StaticResource StringToBoolConverter}}" />
+
+                <!-- Biểu đồ 1: Doanh thu theo tour (Bar Chart) -->
+                <Frame Padding="10" CornerRadius="10" BackgroundColor="#f2f2f2"
+                       IsVisible="{Binding RevenueByTourChart, Converter={StaticResource NullToVisibilityConverter}}">
+                    <VerticalStackLayout Spacing="10">
+                        <Label Text="Doanh thu theo Tour" FontSize="18" />
+                        <microcharts:ChartView Chart="{Binding RevenueByTourChart}" HeightRequest="150" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Biểu đồ 2: Doanh thu theo tháng (Line Chart, nhiều đường) -->
+                <Frame Padding="10" CornerRadius="10" BackgroundColor="#f2f2f2"
+                       IsVisible="{Binding RevenueByMonthChart, Converter={StaticResource NullToVisibilityConverter}}">
+                    <VerticalStackLayout Spacing="10">
+                        <Label Text="Doanh thu theo Tháng (triệu/tháng)" FontSize="17" />
+                        <microcharts:ChartView Chart="{Binding RevenueByMonthChart}" HeightRequest="150" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Biểu đồ 3: Số lượng vé bán ra theo tháng (Line Chart, nhiều đường) -->
+                <Frame Padding="10" CornerRadius="10" BackgroundColor="#f2f2f2"
+                       IsVisible="{Binding TicketsSoldByMonthChart, Converter={StaticResource NullToVisibilityConverter}}">
+                    <VerticalStackLayout Spacing="10">
+                        <Label Text="Số lượng vé bán ra theo Tháng" FontSize="17" />
+                        <microcharts:ChartView Chart="{Binding TicketsSoldByMonthChart}" HeightRequest="150" />
+                    </VerticalStackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="1" HeightRequest="60">
+            <Grid Grid.Row="1" ColumnSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Frame Grid.Column="0" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="manage.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Quản lý" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab1Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame Grid.Column="1" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="report.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Thống kê" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab2Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame Grid.Column="2" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="user.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Hồ sơ" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab3Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,851 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\net\\DoAn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\profileadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\profileadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\services\\databaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\services\\databaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\adminreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\adminreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\managesessionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\managesessionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\addtourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\addtourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\edittourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\edittourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\manageaccountsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\manageaccountsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\tourdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\tourdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\adminhomeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\adminhomeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\profileadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\profileadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\adminhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\adminhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\edittourpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\edittourpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\managetourspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\managetourspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\bookpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\bookpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\adminreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\adminreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\adminreportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\adminreportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\managesessionspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\managesessionspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\models\\favoritetour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\favoritetour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\models\\toursessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\toursessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\addtourpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\addtourpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\manageaccountspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\manageaccountspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\manageaccountspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\manageaccountspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\adminhomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\adminhomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\net\\DoAn\\DoAn\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoAn\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\profileadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\profileadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\managetourspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\managetourspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\tourdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\tourdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\tourdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\tourdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\viewmodels\\managetoursviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\viewmodels\\managetoursviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\reviewpopuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\reviewpopuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\reviewpopuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\reviewpopuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|d:\\net\\doan\\doan\\views\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDD55CAC-DE41-4DCE-84BD-E06BECCC6AEF}|DoAn\\DoAn.csproj|solutionrelative:doan\\views\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 466,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditTourViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\EditTourViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\EditTourViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\EditTourViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\EditTourViewModel.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAwwIoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:46:48.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseServices.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Services\\DatabaseServices.cs",
+              "RelativeDocumentMoniker": "DoAn\\Services\\DatabaseServices.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Services\\DatabaseServices.cs",
+              "RelativeToolTip": "DoAn\\Services\\DatabaseServices.cs",
+              "ViewState": "AgIAAAADAAAAAAAAAAAuwCQDAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T08:14:16.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddTourViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\AddTourViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\AddTourViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\AddTourViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\AddTourViewModel.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwFEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T08:11:54.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageSessionsViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\ManageSessionsViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\ManageSessionsViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\ManageSessionsViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\ManageSessionsViewModel.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAwwF8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:48:45.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminReportViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\AdminReportViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\AdminReportViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\AdminReportViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\AdminReportViewModel.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAkwNcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:31:59.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:24:40.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileAdminViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\ProfileAdminViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\ProfileAdminViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\ProfileAdminViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\ProfileAdminViewModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswFoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:24:29.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManageAccountsViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\ManageAccountsViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\ManageAccountsViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\ManageAccountsViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\ManageAccountsViewModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:39:34.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TourDetailViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\TourDetailViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\TourDetailViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\TourDetailViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\TourDetailViewModel.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAADwv1kAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:23:01.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAA9wIsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:01:57.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminHomeViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\AdminHomeViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\AdminHomeViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\AdminHomeViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\AdminHomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:12:28.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:56:01.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:43:50.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookingViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\BookingViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\BookingViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\BookingViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\BookingViewModel.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAtwHwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T08:10:05.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\BookViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\BookViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\BookViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\BookViewModel.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAwwIsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:02:58.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "DoAn\\Views\\RegisterPage.xaml.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "DoAn\\Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:26:43.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\RegisterPage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\RegisterPage.xaml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T14:26:15.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\ProfilePage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\ProfilePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T04:17:13.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminHomePage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\AdminHomePage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\AdminHomePage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\AdminHomePage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\AdminHomePage.xaml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAEwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T04:02:57.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ManageToursPage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\ManageToursPage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\ManageToursPage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\ManageToursPage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\ManageToursPage.xaml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T08:12:23.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BookingPage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\BookingPage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\BookingPage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\BookingPage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\BookingPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T09:02:27.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EditTourPage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\EditTourPage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\EditTourPage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\EditTourPage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\EditTourPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T12:00:50.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProfileAdminpage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\ProfileAdminpage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\ProfileAdminpage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\ProfileAdminpage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\ProfileAdminpage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T14:16:37.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AdminReportPage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\AdminReportPage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\AdminReportPage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\AdminReportPage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\AdminReportPage.xaml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T05:32:44.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ManageAccountsPage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\ManageAccountsPage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\ManageAccountsPage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\ManageAccountsPage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\ManageAccountsPage.xaml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEoAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T06:10:54.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookPage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\BookPage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\BookPage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\BookPage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\BookPage.xaml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T01:29:25.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\AppShell.xaml",
+              "RelativeDocumentMoniker": "DoAn\\AppShell.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\AppShell.xaml",
+              "RelativeToolTip": "DoAn\\AppShell.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T04:13:41.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdminReportPage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\AdminReportPage.xaml.cs",
+              "RelativeDocumentMoniker": "DoAn\\Views\\AdminReportPage.xaml.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\AdminReportPage.xaml.cs",
+              "RelativeToolTip": "DoAn\\Views\\AdminReportPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:32:59.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ManageSessionsPage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\ManageSessionsPage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\ManageSessionsPage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\ManageSessionsPage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\ManageSessionsPage.xaml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAD4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T10:17:05.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Tour.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Models\\Tour.cs",
+              "RelativeDocumentMoniker": "DoAn\\Models\\Tour.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Models\\Tour.cs",
+              "RelativeToolTip": "DoAn\\Models\\Tour.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T13:57:20.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\HomePage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\HomePage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\HomePage.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADQAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T04:02:06.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TourSessions.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Models\\TourSessions.cs",
+              "RelativeDocumentMoniker": "DoAn\\Models\\TourSessions.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Models\\TourSessions.cs",
+              "RelativeToolTip": "DoAn\\Models\\TourSessions.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA8wBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:01:20.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "DoAn\\Models\\Review.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Models\\Review.cs",
+              "RelativeToolTip": "DoAn\\Models\\Review.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:47:30.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "DoAn\\Models\\Booking.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Models\\Booking.cs",
+              "RelativeToolTip": "DoAn\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:47:46.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "DoAn\\Models\\Users.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Models\\Users.cs",
+              "RelativeToolTip": "DoAn\\Models\\Users.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T05:56:39.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddTourPage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\AddTourPage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\AddTourPage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\AddTourPage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\AddTourPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T06:22:43.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FavoriteTour.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Models\\FavoriteTour.cs",
+              "RelativeDocumentMoniker": "DoAn\\Models\\FavoriteTour.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Models\\FavoriteTour.cs",
+              "RelativeToolTip": "DoAn\\Models\\FavoriteTour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T07:09:45.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ManageAccountsPage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\ManageAccountsPage.xaml.cs",
+              "RelativeDocumentMoniker": "DoAn\\Views\\ManageAccountsPage.xaml.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\ManageAccountsPage.xaml.cs",
+              "RelativeToolTip": "DoAn\\Views\\ManageAccountsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T06:10:53.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AdminHomePage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\AdminHomePage.xaml.cs",
+              "RelativeDocumentMoniker": "DoAn\\Views\\AdminHomePage.xaml.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\AdminHomePage.xaml.cs",
+              "RelativeToolTip": "DoAn\\Views\\AdminHomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:17:27.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "DoAn\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "DoAn\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAjwEQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:14:15.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProfileAdminpage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\ProfileAdminpage.xaml.cs",
+              "RelativeDocumentMoniker": "DoAn\\Views\\ProfileAdminpage.xaml.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\ProfileAdminpage.xaml.cs",
+              "RelativeToolTip": "DoAn\\Views\\ProfileAdminpage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:23:21.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "DoAn\\Views\\ProfilePage.xaml.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "DoAn\\Views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:22:58.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ManageToursPage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\ManageToursPage.xaml.cs",
+              "RelativeDocumentMoniker": "DoAn\\Views\\ManageToursPage.xaml.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\ManageToursPage.xaml.cs",
+              "RelativeToolTip": "DoAn\\Views\\ManageToursPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:23:39.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "TourDetailPage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\TourDetailPage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\TourDetailPage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\TourDetailPage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\TourDetailPage.xaml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwFEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T15:18:12.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TourDetailPage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\TourDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "DoAn\\Views\\TourDetailPage.xaml.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\TourDetailPage.xaml.cs",
+              "RelativeToolTip": "DoAn\\Views\\TourDetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T14:31:19.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ManageToursViewModel.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\ViewModels\\ManageToursViewModel.cs",
+              "RelativeDocumentMoniker": "DoAn\\ViewModels\\ManageToursViewModel.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\ViewModels\\ManageToursViewModel.cs",
+              "RelativeToolTip": "DoAn\\ViewModels\\ManageToursViewModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA5wBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T08:13:21.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "DoAn\\Views\\HomePage.xaml.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "DoAn\\Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:16:58.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "DoAn\\MauiProgram.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\MauiProgram.cs",
+              "RelativeToolTip": "DoAn\\MauiProgram.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:08:06.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ReviewPopupPage.xaml",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\ReviewPopupPage.xaml",
+              "RelativeDocumentMoniker": "DoAn\\Views\\ReviewPopupPage.xaml",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\ReviewPopupPage.xaml",
+              "RelativeToolTip": "DoAn\\Views\\ReviewPopupPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T14:39:59.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ReviewPopupPage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\ReviewPopupPage.xaml.cs",
+              "RelativeDocumentMoniker": "DoAn\\Views\\ReviewPopupPage.xaml.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\ReviewPopupPage.xaml.cs",
+              "RelativeToolTip": "DoAn\\Views\\ReviewPopupPage.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIBJwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T08:38:21.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "BookingPage.xaml.cs",
+              "DocumentMoniker": "D:\\net\\DoAn\\DoAn\\Views\\BookingPage.xaml.cs",
+              "RelativeDocumentMoniker": "DoAn\\Views\\BookingPage.xaml.cs",
+              "ToolTip": "D:\\net\\DoAn\\DoAn\\Views\\BookingPage.xaml.cs",
+              "RelativeToolTip": "DoAn\\Views\\BookingPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T08:03:50.554Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 279,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

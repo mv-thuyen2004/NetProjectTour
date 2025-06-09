@@ -1,0 +1,62 @@
+<!--<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:DoAn.ViewModels"
+             x:Class="DoAn.Views.LoginPage">
+    <ContentPage.BindingContext>
+        <viewModel:LoginViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="30" Spacing="20">
+        <Label Text="Đăng nhập" FontSize="32" HorizontalOptions="Center" />
+        <Frame Style="{StaticResource FrameButton}">
+        <Entry Placeholder="Tên đăng nhập" Text="{Binding Username}" />
+        </Frame>
+        <Frame Style="{StaticResource FrameButton}">
+        <Entry Placeholder="Mật khẩu" Text="{Binding Password}" IsPassword="True" />
+        </Frame>
+        <Frame Style="{StaticResource FrameButton}">
+        <Button Text="Đăng nhập" Command="{Binding LoginCommand}" />
+        </Frame>
+
+        <HorizontalStackLayout  HorizontalOptions="Center">
+            <Label Text="bạn chưa có tài khoản ? "  />
+            <Label Text=" Đăng ký"
+                TextColor="Blue"
+                TextDecorations="Underline">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnLabelTapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </HorizontalStackLayout>
+        <Label Text="{Binding Message}" TextColor="Red" />
+    </VerticalStackLayout>
+</ContentPage>-->
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DoAn.Views.LoginPage"
+             xmlns:vm="clr-namespace:DoAn.ViewModels">
+    <VerticalStackLayout Padding="30" Spacing="20">
+        <Label Text="Đăng nhập" FontSize="32" HorizontalOptions="Center" />
+        <Frame Style="{StaticResource FrameButton}">
+            <Entry Placeholder="Tên đăng nhập" Text="{Binding Username}" />
+        </Frame>
+        <Frame Style="{StaticResource FrameButton}">
+            <Entry Placeholder="Mật khẩu" Text="{Binding Password}" IsPassword="True" />
+        </Frame>
+        <Frame Style="{StaticResource FrameButton}">
+            <Button x:Name="LoginButton" Text="Đăng nhập" Command="{Binding LoginCommand}" Clicked="OnLoginButtonClicked" />
+        </Frame>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="Bạn chưa có tài khoản? " />
+            <Label Text="Đăng ký"
+                   TextColor="Blue"
+                   TextDecorations="Underline">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnLabelTapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </HorizontalStackLayout>
+        <Label Text="{Binding Message}" TextColor="Red" />
+    </VerticalStackLayout>
+</ContentPage>

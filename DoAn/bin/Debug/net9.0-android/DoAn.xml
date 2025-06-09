@@ -1,0 +1,1106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DoAn</name>
+    </assembly>
+    <members>
+        <member name="T:DoAn.ViewModels.AddSessionViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.AddSessionViewModel.StartDate">
+            <inheritdoc cref="F:DoAn.ViewModels.AddSessionViewModel.startDate"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AddSessionViewModel.TotalSeats">
+            <inheritdoc cref="F:DoAn.ViewModels.AddSessionViewModel.totalSeats"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AddSessionViewModel.Message">
+            <inheritdoc cref="F:DoAn.ViewModels.AddSessionViewModel.message"/>
+        </member>
+        <member name="F:DoAn.ViewModels.AddSessionViewModel.addSessionCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AddSessionViewModel.AddSessionCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AddSessionViewModel.AddSessionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AddSessionViewModel.AddSession"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.AddSessionViewModel.backCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AddSessionViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AddSessionViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AddSessionViewModel.Back"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.AddTourViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.AddTourViewModel.TourName">
+            <inheritdoc cref="F:DoAn.ViewModels.AddTourViewModel.tourName"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AddTourViewModel.Location">
+            <inheritdoc cref="F:DoAn.ViewModels.AddTourViewModel.location"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AddTourViewModel.Description">
+            <inheritdoc cref="F:DoAn.ViewModels.AddTourViewModel.description"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AddTourViewModel.ImageUrl">
+            <inheritdoc cref="F:DoAn.ViewModels.AddTourViewModel.imageUrl"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AddTourViewModel.Price">
+            <inheritdoc cref="F:DoAn.ViewModels.AddTourViewModel.price"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AddTourViewModel.AvgRate">
+            <inheritdoc cref="F:DoAn.ViewModels.AddTourViewModel.avgRate"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AddTourViewModel.TotalBooked">
+            <inheritdoc cref="F:DoAn.ViewModels.AddTourViewModel.totalBooked"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AddTourViewModel.Message">
+            <inheritdoc cref="F:DoAn.ViewModels.AddTourViewModel.message"/>
+        </member>
+        <member name="F:DoAn.ViewModels.AddTourViewModel.pickImageCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AddTourViewModel.PickImageCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AddTourViewModel.PickImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AddTourViewModel.PickImage"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.AddTourViewModel.addTourCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AddTourViewModel.AddTourCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AddTourViewModel.AddTourCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AddTourViewModel.AddTour"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.AddTourViewModel.backCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AddTourViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AddTourViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AddTourViewModel.Back"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.AdminHomeViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:DoAn.ViewModels.AdminHomeViewModel.manageAccountsCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AdminHomeViewModel.ManageAccountsCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminHomeViewModel.ManageAccountsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AdminHomeViewModel.ManageAccounts"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.AdminHomeViewModel.manageToursCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AdminHomeViewModel.ManageToursCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminHomeViewModel.ManageToursCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AdminHomeViewModel.ManageTours"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.AdminHomeViewModel.manageTourStatusCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AdminHomeViewModel.ManageTourStatusCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminHomeViewModel.ManageTourStatusCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AdminHomeViewModel.ManageTourStatus"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.AdminHomeViewModel.tab1Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AdminHomeViewModel.Tab1Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminHomeViewModel.Tab1Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AdminHomeViewModel.Tab1"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.AdminHomeViewModel.tab2Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AdminHomeViewModel.Tab2Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminHomeViewModel.Tab2Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AdminHomeViewModel.Tab2"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.AdminHomeViewModel.tab3Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AdminHomeViewModel.Tab3Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminHomeViewModel.Tab3Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AdminHomeViewModel.Tab3"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.AdminReportViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminReportViewModel.RevenueByTour">
+            <inheritdoc cref="F:DoAn.ViewModels.AdminReportViewModel.revenueByTour"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminReportViewModel.RevenueByMonthForAllYears">
+            <inheritdoc cref="F:DoAn.ViewModels.AdminReportViewModel.revenueByMonthForAllYears"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminReportViewModel.TicketsSoldByMonthForAllYears">
+            <inheritdoc cref="F:DoAn.ViewModels.AdminReportViewModel.ticketsSoldByMonthForAllYears"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminReportViewModel.RevenueByTourChart">
+            <inheritdoc cref="F:DoAn.ViewModels.AdminReportViewModel.revenueByTourChart"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminReportViewModel.RevenueByMonthChart">
+            <inheritdoc cref="F:DoAn.ViewModels.AdminReportViewModel.revenueByMonthChart"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminReportViewModel.TicketsSoldByMonthChart">
+            <inheritdoc cref="F:DoAn.ViewModels.AdminReportViewModel.ticketsSoldByMonthChart"/>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminReportViewModel.Message">
+            <inheritdoc cref="F:DoAn.ViewModels.AdminReportViewModel.message"/>
+        </member>
+        <member name="F:DoAn.ViewModels.AdminReportViewModel.tab1Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AdminReportViewModel.Tab1Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminReportViewModel.Tab1Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AdminReportViewModel.Tab1"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.AdminReportViewModel.tab2Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AdminReportViewModel.Tab2Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminReportViewModel.Tab2Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AdminReportViewModel.Tab2"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.AdminReportViewModel.tab3Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.AdminReportViewModel.Tab3Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.AdminReportViewModel.Tab3Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.AdminReportViewModel.Tab3"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.BookingViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.Bookings">
+            <inheritdoc cref="F:DoAn.ViewModels.BookingViewModel.bookings"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.ErrorMessage">
+            <inheritdoc cref="F:DoAn.ViewModels.BookingViewModel.errorMessage"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.SelectedRating">
+            <inheritdoc cref="F:DoAn.ViewModels.BookingViewModel.selectedRating"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.ReviewComment">
+            <inheritdoc cref="F:DoAn.ViewModels.BookingViewModel.reviewComment"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.SelectedBooking">
+            <inheritdoc cref="F:DoAn.ViewModels.BookingViewModel.selectedBooking"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.RatingOptions">
+            <inheritdoc cref="F:DoAn.ViewModels.BookingViewModel.ratingOptions"/>
+        </member>
+        <member name="F:DoAn.ViewModels.BookingViewModel.submitReviewCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.BookingViewModel.SubmitReviewCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.SubmitReviewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.BookingViewModel.SubmitReview"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.BookingViewModel.openReviewPopupCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.BookingViewModel.OpenReviewPopupCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.OpenReviewPopupCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.BookingViewModel.OpenReviewPopup(DoAn.ViewModels.BookingDetail)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.BookingViewModel.cancelCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.BookingViewModel.CancelCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.CancelCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.BookingViewModel.Cancel"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.BookingViewModel.tab1Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.BookingViewModel.Tab1Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.Tab1Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.BookingViewModel.Tab1(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.BookingViewModel.tab2Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.BookingViewModel.Tab2Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.Tab2Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.BookingViewModel.Tab2(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.BookingViewModel.tab3Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.BookingViewModel.Tab3Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.Tab3Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.BookingViewModel.Tab3(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.BookingViewModel.tab4Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.BookingViewModel.Tab4Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.BookingViewModel.Tab4Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.BookingViewModel.Tab4(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.BookViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookViewModel.TourSessions">
+            <inheritdoc cref="F:DoAn.ViewModels.BookViewModel.tourSessions"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookViewModel.SelectedTourSession">
+            <inheritdoc cref="F:DoAn.ViewModels.BookViewModel.selectedTourSession"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookViewModel.NumberOfTickets">
+            <inheritdoc cref="F:DoAn.ViewModels.BookViewModel.numberOfTickets"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookViewModel.TotalPrice">
+            <inheritdoc cref="F:DoAn.ViewModels.BookViewModel.totalPrice"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookViewModel.Message">
+            <inheritdoc cref="F:DoAn.ViewModels.BookViewModel.message"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookViewModel.TourId">
+            <inheritdoc cref="F:DoAn.ViewModels.BookViewModel.tourId"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookViewModel.UserId">
+            <inheritdoc cref="F:DoAn.ViewModels.BookViewModel.userId"/>
+        </member>
+        <member name="P:DoAn.ViewModels.BookViewModel.Tour">
+            <inheritdoc cref="F:DoAn.ViewModels.BookViewModel.tour"/>
+        </member>
+        <member name="M:DoAn.ViewModels.BookViewModel.OnSelectedTourSessionChanged(DoAn.Models.TourSessions)">
+            <summary>Executes the logic for when <see cref="P:DoAn.ViewModels.BookViewModel.SelectedTourSession"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:DoAn.ViewModels.BookViewModel.SelectedTourSession"/> is changed.</remarks>
+        </member>
+        <member name="M:DoAn.ViewModels.BookViewModel.OnNumberOfTicketsChanged(System.Int32)">
+            <summary>Executes the logic for when <see cref="P:DoAn.ViewModels.BookViewModel.NumberOfTickets"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:DoAn.ViewModels.BookViewModel.NumberOfTickets"/> is changed.</remarks>
+        </member>
+        <member name="M:DoAn.ViewModels.BookViewModel.OnTourChanged(DoAn.Models.Tour)">
+            <summary>Executes the logic for when <see cref="P:DoAn.ViewModels.BookViewModel.Tour"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:DoAn.ViewModels.BookViewModel.Tour"/> is changed.</remarks>
+        </member>
+        <member name="F:DoAn.ViewModels.BookViewModel.bookTicketsCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.BookViewModel.BookTicketsCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.BookViewModel.BookTicketsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.BookViewModel.BookTickets"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.BookViewModel.backCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.BookViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.BookViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.BookViewModel.Back"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.EditTourViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.EditTourViewModel.TourName">
+            <inheritdoc cref="F:DoAn.ViewModels.EditTourViewModel.tourName"/>
+        </member>
+        <member name="P:DoAn.ViewModels.EditTourViewModel.Location">
+            <inheritdoc cref="F:DoAn.ViewModels.EditTourViewModel.location"/>
+        </member>
+        <member name="P:DoAn.ViewModels.EditTourViewModel.Description">
+            <inheritdoc cref="F:DoAn.ViewModels.EditTourViewModel.description"/>
+        </member>
+        <member name="P:DoAn.ViewModels.EditTourViewModel.ImageUrl">
+            <inheritdoc cref="F:DoAn.ViewModels.EditTourViewModel.imageUrl"/>
+        </member>
+        <member name="P:DoAn.ViewModels.EditTourViewModel.Price">
+            <inheritdoc cref="F:DoAn.ViewModels.EditTourViewModel.price"/>
+        </member>
+        <member name="P:DoAn.ViewModels.EditTourViewModel.AvgRate">
+            <inheritdoc cref="F:DoAn.ViewModels.EditTourViewModel.avgRate"/>
+        </member>
+        <member name="P:DoAn.ViewModels.EditTourViewModel.TotalBooked">
+            <inheritdoc cref="F:DoAn.ViewModels.EditTourViewModel.totalBooked"/>
+        </member>
+        <member name="P:DoAn.ViewModels.EditTourViewModel.Message">
+            <inheritdoc cref="F:DoAn.ViewModels.EditTourViewModel.message"/>
+        </member>
+        <member name="F:DoAn.ViewModels.EditTourViewModel.pickImageCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.EditTourViewModel.PickImageCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.EditTourViewModel.PickImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.EditTourViewModel.PickImage"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.EditTourViewModel.updateTourCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.EditTourViewModel.UpdateTourCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.EditTourViewModel.UpdateTourCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.EditTourViewModel.UpdateTour"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.EditTourViewModel.backCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.EditTourViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.EditTourViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.EditTourViewModel.Back"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.FavoriteViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.FavoriteViewModel.FavoriteTours">
+            <inheritdoc cref="F:DoAn.ViewModels.FavoriteViewModel.favoriteTours"/>
+        </member>
+        <member name="F:DoAn.ViewModels.FavoriteViewModel.navigateToTourDetailCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.FavoriteViewModel.NavigateToTourDetailCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.FavoriteViewModel.NavigateToTourDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.FavoriteViewModel.NavigateToTourDetail(DoAn.Models.Tour)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.FavoriteViewModel.tab1Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.FavoriteViewModel.Tab1Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.FavoriteViewModel.Tab1Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.FavoriteViewModel.Tab1(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.FavoriteViewModel.tab2Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.FavoriteViewModel.Tab2Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.FavoriteViewModel.Tab2Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.FavoriteViewModel.Tab2(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.FavoriteViewModel.tab3Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.FavoriteViewModel.Tab3Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.FavoriteViewModel.Tab3Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.FavoriteViewModel.Tab3(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.FavoriteViewModel.tab4Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.FavoriteViewModel.Tab4Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.FavoriteViewModel.Tab4Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.FavoriteViewModel.Tab4(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.HomeViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.HomeViewModel.SearchText">
+            <inheritdoc cref="F:DoAn.ViewModels.HomeViewModel.searchText"/>
+        </member>
+        <member name="P:DoAn.ViewModels.HomeViewModel.Tours">
+            <inheritdoc cref="F:DoAn.ViewModels.HomeViewModel.tours"/>
+        </member>
+        <member name="P:DoAn.ViewModels.HomeViewModel.ErrorMessage">
+            <inheritdoc cref="F:DoAn.ViewModels.HomeViewModel.errorMessage"/>
+        </member>
+        <member name="F:DoAn.ViewModels.HomeViewModel.loadAllToursCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.HomeViewModel.LoadAllToursCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.HomeViewModel.LoadAllToursCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.HomeViewModel.LoadAllTours"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.HomeViewModel.searchToursCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.HomeViewModel.SearchToursCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.HomeViewModel.SearchToursCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.HomeViewModel.SearchTours(System.String)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.HomeViewModel.navigateToTourDetailCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.HomeViewModel.NavigateToTourDetailCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.HomeViewModel.NavigateToTourDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.HomeViewModel.NavigateToTourDetail(DoAn.Models.Tour)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.HomeViewModel.tab1Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.HomeViewModel.Tab1Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.HomeViewModel.Tab1Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.HomeViewModel.Tab1(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.HomeViewModel.tab2Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.HomeViewModel.Tab2Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.HomeViewModel.Tab2Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.HomeViewModel.Tab2(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.HomeViewModel.tab3Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.HomeViewModel.Tab3Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.HomeViewModel.Tab3Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.HomeViewModel.Tab3(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.HomeViewModel.tab4Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.HomeViewModel.Tab4Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.HomeViewModel.Tab4Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.HomeViewModel.Tab4(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.LoginViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.LoginViewModel.Username">
+            <inheritdoc cref="F:DoAn.ViewModels.LoginViewModel.username"/>
+        </member>
+        <member name="P:DoAn.ViewModels.LoginViewModel.Password">
+            <inheritdoc cref="F:DoAn.ViewModels.LoginViewModel.password"/>
+        </member>
+        <member name="P:DoAn.ViewModels.LoginViewModel.Message">
+            <inheritdoc cref="F:DoAn.ViewModels.LoginViewModel.message"/>
+        </member>
+        <member name="F:DoAn.ViewModels.LoginViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.LoginViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.LoginViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.LoginViewModel.Login"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.ManageAccountsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageAccountsViewModel.Users">
+            <inheritdoc cref="F:DoAn.ViewModels.ManageAccountsViewModel.users"/>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageAccountsViewModel.Message">
+            <inheritdoc cref="F:DoAn.ViewModels.ManageAccountsViewModel.message"/>
+        </member>
+        <member name="F:DoAn.ViewModels.ManageAccountsViewModel.backCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ManageAccountsViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageAccountsViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.ManageAccountsViewModel.Back"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ManageAccountsViewModel.deleteAccountCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ManageAccountsViewModel.DeleteAccountCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageAccountsViewModel.DeleteAccountCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.ManageAccountsViewModel.DeleteAccount(DoAn.Models.Users)"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.ManageSessionsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageSessionsViewModel.SessionGroups">
+            <inheritdoc cref="F:DoAn.ViewModels.ManageSessionsViewModel.sessionGroups"/>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageSessionsViewModel.Message">
+            <inheritdoc cref="F:DoAn.ViewModels.ManageSessionsViewModel.message"/>
+        </member>
+        <member name="F:DoAn.ViewModels.ManageSessionsViewModel.toggleStatusCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ManageSessionsViewModel.ToggleStatusCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageSessionsViewModel.ToggleStatusCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.ManageSessionsViewModel.ToggleStatus(DoAn.Models.TourSessions)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ManageSessionsViewModel.deleteSessionCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ManageSessionsViewModel.DeleteSessionCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageSessionsViewModel.DeleteSessionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.ManageSessionsViewModel.DeleteSession(DoAn.Models.TourSessions)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ManageSessionsViewModel.backCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ManageSessionsViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageSessionsViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.ManageSessionsViewModel.Back"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.ManageToursViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageToursViewModel.Tours">
+            <inheritdoc cref="F:DoAn.ViewModels.ManageToursViewModel.tours"/>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageToursViewModel.Message">
+            <inheritdoc cref="F:DoAn.ViewModels.ManageToursViewModel.message"/>
+        </member>
+        <member name="F:DoAn.ViewModels.ManageToursViewModel.addNewTourCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ManageToursViewModel.AddNewTourCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageToursViewModel.AddNewTourCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.ManageToursViewModel.AddNewTour"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ManageToursViewModel.deleteTourCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ManageToursViewModel.DeleteTourCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageToursViewModel.DeleteTourCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.ManageToursViewModel.DeleteTour(DoAn.Models.Tour)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ManageToursViewModel.editTourCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ManageToursViewModel.EditTourCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageToursViewModel.EditTourCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.ManageToursViewModel.EditTour(DoAn.Models.Tour)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ManageToursViewModel.addSessionCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ManageToursViewModel.AddSessionCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageToursViewModel.AddSessionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.ManageToursViewModel.AddSession(DoAn.Models.Tour)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ManageToursViewModel.backCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ManageToursViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ManageToursViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.ManageToursViewModel.Back"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.ProfileAdminViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileAdminViewModel.Name">
+            <inheritdoc cref="F:DoAn.ViewModels.ProfileAdminViewModel.name"/>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileAdminViewModel.Username">
+            <inheritdoc cref="F:DoAn.ViewModels.ProfileAdminViewModel.username"/>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileAdminViewModel.Phonenumber">
+            <inheritdoc cref="F:DoAn.ViewModels.ProfileAdminViewModel.phonenumber"/>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileAdminViewModel.UserId">
+            <inheritdoc cref="F:DoAn.ViewModels.ProfileAdminViewModel.userId"/>
+        </member>
+        <member name="F:DoAn.ViewModels.ProfileAdminViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ProfileAdminViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileAdminViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.ProfileAdminViewModel.Logout"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ProfileAdminViewModel.tab1Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ProfileAdminViewModel.Tab1Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileAdminViewModel.Tab1Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.ProfileAdminViewModel.Tab1"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ProfileAdminViewModel.tab2Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ProfileAdminViewModel.Tab2Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileAdminViewModel.Tab2Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.ProfileAdminViewModel.Tab2"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ProfileAdminViewModel.tab3Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ProfileAdminViewModel.Tab3Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileAdminViewModel.Tab3Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.ProfileAdminViewModel.Tab3"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.ProfileViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileViewModel.Name">
+            <inheritdoc cref="F:DoAn.ViewModels.ProfileViewModel.name"/>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileViewModel.Username">
+            <inheritdoc cref="F:DoAn.ViewModels.ProfileViewModel.username"/>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileViewModel.Phonenumber">
+            <inheritdoc cref="F:DoAn.ViewModels.ProfileViewModel.phonenumber"/>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileViewModel.UserId">
+            <inheritdoc cref="F:DoAn.ViewModels.ProfileViewModel.userId"/>
+        </member>
+        <member name="F:DoAn.ViewModels.ProfileViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ProfileViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.ProfileViewModel.Logout"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ProfileViewModel.tab1Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ProfileViewModel.Tab1Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileViewModel.Tab1Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.ProfileViewModel.Tab1(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ProfileViewModel.tab2Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ProfileViewModel.Tab2Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileViewModel.Tab2Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.ProfileViewModel.Tab2(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ProfileViewModel.tab3Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ProfileViewModel.Tab3Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileViewModel.Tab3Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.ProfileViewModel.Tab3(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.ProfileViewModel.tab4Command">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.ProfileViewModel.Tab4Command"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.ProfileViewModel.Tab4Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.ProfileViewModel.Tab4(Microsoft.Maui.Controls.ContentPage)"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.RegisterViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.RegisterViewModel.Name">
+            <inheritdoc cref="F:DoAn.ViewModels.RegisterViewModel.name"/>
+        </member>
+        <member name="P:DoAn.ViewModels.RegisterViewModel.Username">
+            <inheritdoc cref="F:DoAn.ViewModels.RegisterViewModel.username"/>
+        </member>
+        <member name="P:DoAn.ViewModels.RegisterViewModel.Password">
+            <inheritdoc cref="F:DoAn.ViewModels.RegisterViewModel.password"/>
+        </member>
+        <member name="P:DoAn.ViewModels.RegisterViewModel.Phonenumber">
+            <inheritdoc cref="F:DoAn.ViewModels.RegisterViewModel.phonenumber"/>
+        </member>
+        <member name="P:DoAn.ViewModels.RegisterViewModel.Message">
+            <inheritdoc cref="F:DoAn.ViewModels.RegisterViewModel.message"/>
+        </member>
+        <member name="F:DoAn.ViewModels.RegisterViewModel.registerCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.RegisterViewModel.RegisterCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.RegisterViewModel.RegisterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.RegisterViewModel.Register"/>.</summary>
+        </member>
+        <member name="T:DoAn.ViewModels.TourDetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DoAn.ViewModels.TourDetailViewModel.Tour">
+            <inheritdoc cref="F:DoAn.ViewModels.TourDetailViewModel.tour"/>
+        </member>
+        <member name="P:DoAn.ViewModels.TourDetailViewModel.IsFavorite">
+            <inheritdoc cref="F:DoAn.ViewModels.TourDetailViewModel.isFavorite"/>
+        </member>
+        <member name="P:DoAn.ViewModels.TourDetailViewModel.Reviews">
+            <inheritdoc cref="F:DoAn.ViewModels.TourDetailViewModel.reviews"/>
+        </member>
+        <member name="P:DoAn.ViewModels.TourDetailViewModel.HeartIcon">
+            <inheritdoc cref="F:DoAn.ViewModels.TourDetailViewModel.heartIcon"/>
+        </member>
+        <member name="M:DoAn.ViewModels.TourDetailViewModel.OnTourChanged(DoAn.Models.Tour)">
+            <summary>Executes the logic for when <see cref="P:DoAn.ViewModels.TourDetailViewModel.Tour"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:DoAn.ViewModels.TourDetailViewModel.Tour"/> is changed.</remarks>
+        </member>
+        <member name="F:DoAn.ViewModels.TourDetailViewModel.backCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.TourDetailViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.TourDetailViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.TourDetailViewModel.Back"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.TourDetailViewModel.bookNowCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.TourDetailViewModel.BookNowCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.TourDetailViewModel.BookNowCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DoAn.ViewModels.TourDetailViewModel.BookNow(DoAn.Models.Tour)"/>.</summary>
+        </member>
+        <member name="F:DoAn.ViewModels.TourDetailViewModel.toggleFavoriteCommand">
+            <summary>The backing field for <see cref="P:DoAn.ViewModels.TourDetailViewModel.ToggleFavoriteCommand"/>.</summary>
+        </member>
+        <member name="P:DoAn.ViewModels.TourDetailViewModel.ToggleFavoriteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DoAn.ViewModels.TourDetailViewModel.ToggleFavorite"/>.</summary>
+        </member>
+        <member name="T:DoAn.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_InputView.TextColorTo(Microsoft.Maui.Controls.InputView,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StartDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StartDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TotalSeats">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TotalSeats" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Message">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Message" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TourName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TourName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Location">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Location" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ImageUrl">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ImageUrl" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Price">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Price" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AvgRate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AvgRate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TotalBooked">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TotalBooked" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RevenueByTour">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RevenueByTour" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RevenueByMonthForAllYears">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RevenueByMonthForAllYears" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TicketsSoldByMonthForAllYears">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TicketsSoldByMonthForAllYears" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RevenueByTourChart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RevenueByTourChart" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RevenueByMonthChart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RevenueByMonthChart" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TicketsSoldByMonthChart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TicketsSoldByMonthChart" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Bookings">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Bookings" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ErrorMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedRating">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedRating" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ReviewComment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ReviewComment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedBooking">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedBooking" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RatingOptions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RatingOptions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TourSessions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TourSessions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedTourSession">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedTourSession" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NumberOfTickets">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NumberOfTickets" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TotalPrice">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TotalPrice" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TourId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TourId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UserId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UserId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Tour">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Tour" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FavoriteTours">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FavoriteTours" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SearchText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SearchText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Tours">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Tours" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Users">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Users" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SessionGroups">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SessionGroups" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Phonenumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Phonenumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsFavorite">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsFavorite" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Reviews">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Reviews" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.HeartIcon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "HeartIcon" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StartDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StartDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TotalSeats">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TotalSeats" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Message">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Message" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TourName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TourName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Location">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Location" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ImageUrl">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ImageUrl" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Price">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Price" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AvgRate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AvgRate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TotalBooked">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TotalBooked" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RevenueByTour">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RevenueByTour" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RevenueByMonthForAllYears">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RevenueByMonthForAllYears" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TicketsSoldByMonthForAllYears">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TicketsSoldByMonthForAllYears" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RevenueByTourChart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RevenueByTourChart" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RevenueByMonthChart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RevenueByMonthChart" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TicketsSoldByMonthChart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TicketsSoldByMonthChart" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Bookings">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Bookings" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ErrorMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedRating">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedRating" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ReviewComment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ReviewComment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedBooking">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedBooking" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RatingOptions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RatingOptions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TourSessions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TourSessions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedTourSession">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedTourSession" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NumberOfTickets">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NumberOfTickets" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TotalPrice">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TotalPrice" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TourId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TourId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UserId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UserId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Tour">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Tour" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FavoriteTours">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FavoriteTours" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SearchText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SearchText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Tours">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Tours" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Username">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Username" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Users">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Users" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SessionGroups">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SessionGroups" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Phonenumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Phonenumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsFavorite">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsFavorite" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Reviews">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Reviews" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.HeartIcon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "HeartIcon" generated properties.</summary>
+        </member>
+    </members>
+</doc>

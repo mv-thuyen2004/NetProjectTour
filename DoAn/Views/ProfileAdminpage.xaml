@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DoAn.Views.ProfileAdminpage"
+             >
+    <Grid RowDefinitions="*, 60">
+
+
+
+        <VerticalStackLayout Padding="15" Spacing="15" Grid.Row="0">
+            <!-- Tiêu đề -->
+            <Label Text="Thông Tin Cá Nhân"
+           FontSize="30"
+           FontAttributes="Bold"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+
+            <!-- Thông tin người dùng -->
+            <Frame CornerRadius="15"
+           BackgroundColor="#f2f2f2"
+           Padding="15"
+           HasShadow="True">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Họ và Tên:"
+                   FontSize="16"
+                   FontAttributes="Bold"
+                   TextColor="Black" />
+                    <Label Text="{Binding Name}"
+                   FontSize="16"
+                   TextColor="Black" />
+
+                    <Label Text="Tên đăng nhập:"
+                   FontSize="16"
+                   FontAttributes="Bold"
+                   TextColor="Black" />
+                    <Label Text="{Binding Username}"
+                   FontSize="16"
+                   TextColor="Black" />
+
+                    <Label Text="Số điện thoại:"
+                   FontSize="16"
+                   FontAttributes="Bold"
+                   TextColor="Black" />
+                    <Label Text="{Binding Phonenumber}"
+                   FontSize="16"
+                   TextColor="Black" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Nút đăng xuất -->
+            <Button Text="Đăng Xuất"
+            BackgroundColor="#FF5555"
+            TextColor="White"
+            CornerRadius="10"
+            HeightRequest="50"
+            FontSize="16"
+            Command="{Binding LogoutCommand}"
+            VerticalOptions="EndAndExpand" />
+        </VerticalStackLayout>
+        <Grid Grid.Row="2" HeightRequest="60">
+            <Grid Grid.Row="1" ColumnSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Frame Grid.Column="0" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="manage.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Quản lý" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab1Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame Grid.Column="1" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="report.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Thống kê" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab2Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame Grid.Column="2" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="user.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Hồ sơ" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab3Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </Grid>
+        </Grid>
+    </Grid >
+</ContentPage>

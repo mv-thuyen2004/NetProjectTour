@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DoAn.Views.AdminHomePage"
+             >
+    <Grid RowDefinitions="60, *, 60" >
+        <Label  Grid.Row="0" Text="Trang Quản Trị" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" />
+        <VerticalStackLayout Spacing="10" HorizontalOptions="Center" Grid.Row="1">
+            <Button Text="Quản lý tài khoản" 
+                    Command="{Binding ManageAccountsCommand}" 
+                    BackgroundColor="#007BFF" 
+                    TextColor="White" 
+                    WidthRequest="200" 
+                    HeightRequest="50" 
+                    CornerRadius="10" />
+            <Button Text="Quản lý tour" 
+                    Command="{Binding ManageToursCommand}" 
+                    BackgroundColor="#007BFF" 
+                    TextColor="White" 
+                    WidthRequest="200" 
+                    HeightRequest="50" 
+                    CornerRadius="10" />
+            <Button Text="Quản lý trạng thái tour" 
+                    Command="{Binding ManageTourStatusCommand}" 
+                    BackgroundColor="#007BFF" 
+                    TextColor="White" 
+                    WidthRequest="200" 
+                    HeightRequest="50" 
+                    CornerRadius="10" />
+            
+            
+        </VerticalStackLayout>
+        <Grid Grid.Row="2" HeightRequest="60">
+            <Grid Grid.Row="1" ColumnSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                   
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Frame Grid.Column="0" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="manage.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Quản lý" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab1Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame Grid.Column="1" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="report.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Thống kê" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab2Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame Grid.Column="2" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="user.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Hồ sơ" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab3Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

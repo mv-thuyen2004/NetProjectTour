@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:DoAn.Converters"
+             x:Class="DoAn.Views.ManageToursPage"
+             >
+    <ContentPage.Resources>
+        <converters:ImagePathConverter x:Key="ImagePathConverter" />
+    </ContentPage.Resources>
+
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="0" />
+            </Grid.ColumnDefinitions>
+            <Frame Padding="0" HasShadow="False" CornerRadius="25" HeightRequest="30" WidthRequest="30"
+                                BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" Margin="10" InputTransparent="False">
+                <Image Source="back.png" HeightRequest="40" WidthRequest="40" InputTransparent="False">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding BackCommand}" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </Frame>
+            <Label Text="Quản Lý Tour" HorizontalOptions="Center" VerticalOptions="Center"
+                    FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+        </Grid>
+        
+            <Button Text="Thêm Tour Mới" 
+                Command="{Binding AddNewTourCommand}" 
+                BackgroundColor="#28A745" 
+                TextColor="White" 
+                WidthRequest="200" 
+                HeightRequest="50" 
+                CornerRadius="10" 
+                HorizontalOptions="Center" />
+        <ScrollView>
+            <CollectionView ItemsSource="{Binding Tours}" SelectionMode="None">
+              
+            <CollectionView.ItemTemplate>
+                
+                <DataTemplate>
+                    
+                        <Frame Padding="10" Margin="5" HasShadow="True">
+                        <VerticalStackLayout Spacing="5">
+                            <Image Source="{Binding ImageUrl, Converter={StaticResource ImagePathConverter}}" 
+                                   HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" 
+                                   Aspect="AspectFit" />
+                            <Label Text="{Binding TourName}" FontSize="18" FontAttributes="Bold" />
+                            <Label Text="{Binding Location}" FontSize="14" />
+                            <Label Text="{Binding Price, StringFormat='Giá: {0:N0} VND'}" FontSize="14" />
+                            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                                        <Button Text="Thêm Phiên" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.AddSessionCommand}"
+                                                CommandParameter="{Binding .}" 
+                                                BackgroundColor="#00FF00" 
+                                                TextColor="White" />
+                                    
+                                        <Button Text="Chỉnh sửa" 
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.EditTourCommand}" 
+                                        CommandParameter="{Binding .}" 
+                                        BackgroundColor="#007BFF" 
+                                        TextColor="White" 
+                                        WidthRequest="100" 
+                                        HeightRequest="40" 
+                                        CornerRadius="5" />
+                                        <Button Text="Xóa" 
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DeleteTourCommand}" 
+                                        CommandParameter="{Binding .}" 
+                                        BackgroundColor="#DC3545" 
+                                        TextColor="White" 
+                                        
+                                        HeightRequest="40" 
+                                        CornerRadius="5" />
+                                
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+                    
+                </DataTemplate>
+
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        </ScrollView>
+        <Label Text="{Binding Message}" TextColor="Red" HorizontalOptions="Center" />
+        
+    </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

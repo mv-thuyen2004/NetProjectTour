@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DoAn.Views.AddTourPage"
+             >
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="0" />
+            </Grid.ColumnDefinitions>
+            <Frame Padding="0" HasShadow="False" CornerRadius="25" HeightRequest="30" WidthRequest="30"
+   BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" Margin="10" InputTransparent="False">
+                <Image Source="back.png" HeightRequest="40" WidthRequest="40" InputTransparent="False">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding BackCommand}" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </Frame>
+            <Label Text="Thêm tour mới" HorizontalOptions="Center" VerticalOptions="Center"
+   FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+        </Grid>
+        
+        <Entry Placeholder="Tên tour" Text="{Binding TourName}" />
+        <Entry Placeholder="Địa điểm" Text="{Binding Location}" />
+        <Entry Placeholder="Mô tả" Text="{Binding Description}" />
+        <Entry Placeholder="Giá (VND)" Text="{Binding Price}" Keyboard="Numeric" />
+        <Label Text="{Binding ImageUrl, StringFormat='Ảnh đã chọn: {0}'}" HorizontalOptions="Center" />
+        <Button Text="Chọn Ảnh" Command="{Binding PickImageCommand}" BackgroundColor="#007BFF" TextColor="White" />
+        <Button Text="Thêm Tour" Command="{Binding AddTourCommand}" BackgroundColor="#007BFF" TextColor="White" />
+        <Label Text="{Binding Message}" TextColor="Red" HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

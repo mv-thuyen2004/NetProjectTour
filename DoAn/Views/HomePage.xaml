@@ -1,0 +1,148 @@
+
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DoAn.Views.HomePage"
+             xmlns:converters="clr-namespace:DoAn.Converters"
+             x:Name="ThisPage"
+             Title="Explore"
+             BackgroundColor="White"
+             >
+    <ContentPage.Resources>
+        <converters:ImagePathConverter x:Key="ImagePathConverter" />
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto, *, 60">
+        <!-- Thanh Tìm kiếm -->
+        <Frame CornerRadius="12" Padding="0" HasShadow="False">
+            <SearchBar Placeholder="Tìm kiếm tour..."
+                      Text="{Binding SearchText, Mode=TwoWay}"
+                      SearchCommand="{Binding SearchToursCommand}"
+                      SearchCommandParameter="{Binding Text, Source={RelativeSource Self}}" />
+        </Frame>
+
+        <CollectionView Grid.Row="1"
+                        ItemsSource="{Binding Tours}"
+                        Margin="0"
+                        SelectionMode="None"
+                        ItemsLayout="HorizontalList">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Horizontal" ItemSpacing="15"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10"
+                           Margin="0,0,15,0"
+                           CornerRadius="15"
+                           BackgroundColor="#f2f2f2"
+                           HeightRequest="300"
+                           WidthRequest="200"
+                           InputTransparent="False">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BindingContext.NavigateToTourDetailCommand, Source={x:Reference ThisPage}}"
+                                                 CommandParameter="{Binding .}" />
+                        </Frame.GestureRecognizers>
+                        <VerticalStackLayout Spacing="5" InputTransparent="True">
+                            <!-- Hình ảnh sản phẩm -->
+                            <Frame HeightRequest="180"
+                                   WidthRequest="180"
+                                   CornerRadius="15"
+                                   Padding="0"
+                                   Margin="0"
+                                   HasShadow="True">
+                                <Image Source="{Binding ImageUrl, Converter={StaticResource ImagePathConverter}}"
+                                       HeightRequest="180"
+                                       WidthRequest="180"
+                                       Aspect="AspectFill"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center" />
+                            </Frame>
+
+                            <!-- Tên tour -->
+                            <Label Text="{Binding TourName}"
+                                   FontAttributes="Bold"
+                                   FontSize="16"
+                                   LineBreakMode="TailTruncation" />
+
+                            <!-- Đánh giá sao -->
+                            <HorizontalStackLayout Spacing="2" InputTransparent="True">
+                                <Label Text="{Binding AvgRate, StringFormat='{0:F1}'}"
+                                       FontSize="12"
+                                       TextColor="Orange" />
+                                <Label Text="⭐"
+                                       FontSize="12"
+                                       TextColor="Orange" />
+                                <Label Text="{Binding TotalBooked}"
+                                       FontSize="10"
+                                       TextColor="Gray" />
+                            </HorizontalStackLayout>
+
+                            <!-- Vị trí -->
+                            <Label Text="{Binding Location}"
+                                   TextColor="Gray"
+                                   FontSize="12"
+                                   LineBreakMode="TailTruncation"
+                                   InputTransparent="True"/>
+
+                            <!-- Giá tiền -->
+                            <Label Text="{Binding Price, StringFormat='Giá: {0:N0} VND'}"
+                                   TextColor="#4CAF50"
+                                   FontSize="12"
+                                   InputTransparent="True"/>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Grid Grid.Row="2" HeightRequest="60">
+            <Grid Grid.Row="1" ColumnSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Frame Grid.Column="0" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="home.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Trang chủ" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab1Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame Grid.Column="1" Padding="3" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="heart.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Yêu thích" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab2Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame Grid.Column="2" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="shoppingbag.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Giỏ hàng" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab3Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Frame Grid.Column="3" Padding="5" BorderColor="#FFFFFF" HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
+                        <Image Source="user.png" HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" />
+                        <Label Text="Hồ sơ" FontSize="12" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Tab4Command}" CommandParameter="{x:Reference ThisPage}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

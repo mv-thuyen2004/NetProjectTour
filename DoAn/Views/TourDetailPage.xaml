@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DoAn.Views.TourDetailPage"
+             xmlns:viewModel="clr-namespace:DoAn.ViewModels"
+             xmlns:converters="clr-namespace:DoAn.Converters"
+             x:Name="TourDetail"
+             BackgroundColor="#F6F8FC">
+    <ContentPage.Resources>
+        <converters:ImagePathConverter x:Key="ImagePathConverter" />
+    </ContentPage.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="0" />
+            </Grid.ColumnDefinitions>
+            <Frame Padding="20" HasShadow="False" CornerRadius="25" HeightRequest="30" WidthRequest="30"
+                   BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" Margin="10" InputTransparent="False" >
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding BackCommand}" />
+                </Frame.GestureRecognizers>
+                <Image Source="back.png" HeightRequest="40" WidthRequest="40" InputTransparent="False">
+                    
+                </Image>
+            </Frame>
+            <Label Text="Thông tin chi tiết tour" HorizontalOptions="Center" VerticalOptions="Center"
+                   FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+        </Grid>
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Padding="15" Spacing="15">
+                <Frame HasShadow="False" CornerRadius="20" Padding="0">
+                    <Grid>
+                        <Image Source="{Binding Tour.ImageUrl, Converter={StaticResource ImagePathConverter}}" Aspect="AspectFill" HeightRequest="250" />
+                        <ImageButton Source="{Binding HeartIcon}" BackgroundColor="LightGray" WidthRequest="35" HeightRequest="35"
+                                     CornerRadius="10" HorizontalOptions="End" VerticalOptions="End" Margin="10"
+                                     Command="{Binding ToggleFavoriteCommand}" />
+                    </Grid>
+                </Frame>
+                <Label Text="{Binding Tour.TourName}" FontSize="20" FontAttributes="Bold" TextColor="Black" />
+                <HorizontalStackLayout Spacing="5">
+                    <Label Text="★" FontSize="14" TextColor="Orange" />
+                    <Label Text="{Binding Tour.AvgRate, StringFormat='{0:F1}'}" FontSize="14" TextColor="Black" />
+                    <Label Text="{Binding Tour.TotalBooked}" FontSize="12" TextColor="Gray" />
+                </HorizontalStackLayout>
+                <Label Text="{Binding Tour.Description}" FontSize="14" TextColor="Black" LineBreakMode="WordWrap" MaxLines="4" />
+
+                <!-- Phần hiển thị danh sách đánh giá -->
+                <Label Text="Đánh giá" FontSize="18" FontAttributes="Bold" TextColor="Black" />
+                <CollectionView ItemsSource="{Binding Reviews}" Margin="0" VerticalOptions="FillAndExpand">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="10" Margin="0,0,0,10" CornerRadius="15" BackgroundColor="#f2f2f2">
+                                <VerticalStackLayout Spacing="5">
+                                    <HorizontalStackLayout Spacing="5">
+                                        <Label Text="★" FontSize="14" TextColor="Orange" />
+                                        <Label Text="{Binding Rating, StringFormat='{0:F1}'}" FontSize="14" TextColor="Black" />
+                                    </HorizontalStackLayout>
+                                    <Label Text="{Binding Comment}" FontSize="14" TextColor="Gray" LineBreakMode="WordWrap" MaxLines="3" />
+                                </VerticalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+        <Grid ColumnDefinitions="Auto,*" Grid.Row="2" VerticalOptions="End" Padding="15" ColumnSpacing="50">
+            <VerticalStackLayout Grid.Column="0" Padding="15,0,0,0">
+                <Label Text="Giá tiền" FontSize="18" TextColor="Black" FontAttributes="Bold" />
+                <Label Text="{Binding Tour.Price, StringFormat='{0:N0} VND'}" FontSize="18" TextColor="Green" FontAttributes="Bold" HeightRequest="60" />
+            </VerticalStackLayout>
+            <Button Text="Book Now" BackgroundColor="#007BFF" TextColor="White" CornerRadius="20" Padding="15,5" FontSize="16" Grid.Column="1"
+                    Command="{Binding BookNowCommand}" 
+                    CommandParameter="{Binding Tour}" />
+        </Grid>
+    </Grid>
+</ContentPage>

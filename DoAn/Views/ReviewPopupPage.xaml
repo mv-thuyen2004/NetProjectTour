@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DoAn.Views.ReviewPopupPage"
+             Title="Đánh giá">
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="Đánh giá tour" FontSize="18" FontAttributes="Bold" HorizontalOptions="Center" />
+
+        <!-- Chọn số sao (1-5) -->
+        <Picker Title="Chọn số sao" 
+                SelectedIndexChanged="OnRatingSelected"
+                ItemsSource="{Binding RatingOptions}"
+                SelectedItem="{Binding SelectedRating, Mode=TwoWay}"
+                HorizontalOptions="Center" />
+
+        <!-- Nhập bình luận -->
+        <Editor Placeholder="Nhập bình luận (không bắt buộc)" 
+                Text="{Binding ReviewComment, Mode=TwoWay}"
+                HeightRequest="100" />
+
+        <!-- Nút gửi và hủy -->
+        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+            <Button Text="Gửi" Command="{Binding SubmitReviewCommand}" BackgroundColor="#2196F3" TextColor="White" CornerRadius="10" />
+            <Button Text="Hủy" Command="{Binding CancelCommand}" BackgroundColor="#F44336" TextColor="White" CornerRadius="10" />
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

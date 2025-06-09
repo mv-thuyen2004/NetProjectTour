@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="DoAn.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:DoAn"
+    xmlns:views="clr-namespace:DoAn.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="DoAn">
+
+
+
+
+    <ShellContent  ContentTemplate="{DataTemplate views:LoginPage}" Route="login" />
+    <ShellContent  ContentTemplate="{DataTemplate views:RegisterPage}" Route="register" />
+    <ShellContent  ContentTemplate="{DataTemplate views:HomePage}" Route="home" />
+    <ShellContent  ContentTemplate="{DataTemplate views:TourDetailPage}" Route="TourDetailPage" />
+    <ShellContent  ContentTemplate="{DataTemplate views:FavoritePage}" Route="favorite" />
+    <ShellContent  ContentTemplate="{DataTemplate views:BookingPage}" Route="booking" />
+    <ShellContent  ContentTemplate="{DataTemplate views:ProfilePage}" Route="profile" />
+    <ShellContent ContentTemplate="{DataTemplate views:AdminHomePage}" Route="adminhome" />
+
+    <!-- Các route cho các trang quản lý -->
+    <ShellContent  ContentTemplate="{DataTemplate views:ManageToursPage}" Route="managetours" />
+    <ShellContent  ContentTemplate="{DataTemplate views:ManageSessionsPage}" Route="manageSessions" />
+    <ShellContent  ContentTemplate="{DataTemplate views:ManageAccountsPage}" Route="manageaccounts" />
+    <ShellContent Route="addtour" ContentTemplate="{DataTemplate views:AddTourPage}" />
+    <!-- Trang thêm tour mới -->
+    <ShellContent Route="edittour" ContentTemplate="{DataTemplate views:EditTourPage}" />
+    <!-- Trang chỉnh sửa tour -->
+    <ShellContent Route="report" ContentTemplate="{DataTemplate views:AdminReportPage}" />
+    <ShellContent Route="addsession" ContentTemplate="{DataTemplate views:AddSessionPage}" />
+    <ShellContent Route="bookpage" ContentTemplate="{DataTemplate views:BookPage}" />
+    <ShellContent Route="profileAdmin" ContentTemplate="{DataTemplate views:ProfileAdminpage}" />
+    
+
+
+
+
+
+</Shell>

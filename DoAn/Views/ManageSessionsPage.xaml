@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:DoAn.Converters"
+             xmlns:local="clr-namespace:DoAn.ViewModels"
+             x:Class="DoAn.Views.ManageSessionsPage"
+             >
+    <ContentPage.Resources>
+        <converters:StatusConverter x:Key="StatusConverter" />
+    </ContentPage.Resources>
+    <VerticalStackLayout Spacing="20" Padding="20">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="0" />
+            </Grid.ColumnDefinitions>
+            <Frame Padding="0" HasShadow="False" CornerRadius="25" HeightRequest="30" WidthRequest="30"
+       BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="Start" Margin="10" InputTransparent="False">
+                <Image Source="back.png" HeightRequest="40" WidthRequest="40" InputTransparent="False">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding BackCommand}" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </Frame>
+            <Label Text="Quản Lý phiên Tour" HorizontalOptions="Center" VerticalOptions="Center"
+       FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+        </Grid>
+        <VerticalStackLayout Padding="20,0,0,0" Spacing="15">
+
+
+            <CollectionView ItemsSource="{Binding SessionGroups}" IsGrouped="True" HeightRequest="600">
+                   
+                    <CollectionView.GroupHeaderTemplate>
+                      
+                        <DataTemplate>
+                            <Label Text="{Binding Tour.TourName}" 
+                           FontSize="20" 
+                           FontAttributes="Bold" 
+                           BackgroundColor="#33FFFF" 
+                           Padding="10" />
+                        </DataTemplate>
+                    </CollectionView.GroupHeaderTemplate>
+                    
+                    <CollectionView.ItemTemplate>
+                        
+                        <DataTemplate>
+                       
+                            <VerticalStackLayout Padding="10">
+                                <Label Text="{Binding StartDate, StringFormat='Ngày: {0:dd/MM/yyyy}'}" FontSize="16" />
+                                <Label Text="{Binding TotalSeats, StringFormat='Tổng ghế: {0}'}" FontSize="14" />
+                                <Label Text="{Binding RemainingSeats, StringFormat='Ghế còn: {0}'}" FontSize="14" />
+                                <Label FontSize="14">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Trạng thái: " />
+                                            <Span Text="{Binding Status, Converter={StaticResource StatusConverter}}" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Button Text="{Binding Status, Converter={StaticResource StatusConverter}, StringFormat='chuyển sang trạng thái hoàn thành'}" 
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:ManageSessionsViewModel}}, Path=ToggleStatusCommand}" 
+                                CommandParameter="{Binding .}" 
+                                BackgroundColor="#00DD00" 
+                                TextColor="White" />
+                                <Button Text="Xóa"  
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:ManageSessionsViewModel}}, Path=DeleteSessionCommand}" 
+                                CommandParameter="{Binding .}" 
+                                BackgroundColor="#FF0000" 
+                                TextColor="White" />
+                            </VerticalStackLayout>
+                       
+                    </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                
+                <Label Text="{Binding Message}" TextColor="Red" HorizontalOptions="Center" />
+        
+        </VerticalStackLayout>
+        
+    </VerticalStackLayout>
+</ContentPage>
