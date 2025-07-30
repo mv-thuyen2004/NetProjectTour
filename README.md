@@ -55,8 +55,8 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/mv-thuyen2004/NetProjectTour.git
+cd NetProjectTour
 
 # Khởi chạy bằng Visual Studio hoặc dùng lệnh:
 dotnet build
