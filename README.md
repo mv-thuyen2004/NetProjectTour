@@ -15,7 +15,7 @@
  
 ## 📘 Tài liệu liên quan
 
-- [📄 Báo cáo chi tiết các tính năng và giao diện]https://drive.google.com/file/d/1O9qaU7BegtFlBkZFk1TS1K7gEe6ZU9f2/view?usp=sharing
+- [📄 Báo cáo chi tiết các tính năng và giao diện](https://drive.google.com/file/d/1O9qaU7BegtFlBkZFk1TS1K7gEe6ZU9f2/view?usp=sharing)
 ---
 
 Ứng dụng sử dụng **SQLite** làm cơ sở dữ liệu cục bộ, đảm bảo hiệu suất tốt và truy cập nhanh.
